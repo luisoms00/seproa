@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPROA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css">
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-custom navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+          <img src="media/thumbnail_logo2.ico" alt="Logo SEPROA" width="40" height="40" class="d-inline-block align-text-top">
+      </a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Servicio Profesional de Asesores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-us">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="foro.html">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <a href="#contact" class="btn btn-primary">Contáctanos</a>
+    </div>
+  </nav>
+  <!--section HERO-->
+  <section id="hero">
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://heroku-cforemoto-blog-strapi.s3.us-west-2.amazonaws.com/libro_contable_1200x800_2fc0a53c79.jpeg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Asesoría Contable Integral</h5>
+          <p>Brindamos soluciones contables personalizadas para tu empresa. Optimiza tu administración financiera con nosotros.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://conecta.tec.mx/sites/default/files/styles/header_full/public/2022-06/que-es-el-sat.jpg.webp?itok=SLL19rfr" class="d-block w-100 h-80"  alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cumplimiento Fiscal Seguro</h5>
+          <p>Te ayudamos a cumplir con todas tus obligaciones fiscales, evitando riesgos y optimizando beneficios dentro del marco legal.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.corinthiansgroup.com/wp/wp-content/uploads/2018/06/Private-Investigator-Meeting.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Crecimiento y Estrategia Financiera</h5>
+          <p>Más que números, impulsamos el crecimiento de tu negocio con estrategias financieras inteligentes.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  </section>
+  <!--ends Hero-->
+
+  <section id="about-us" class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center text-center mb-4">
+        <div class="col-lg-8">
+          <h2 class="fw-bold">Acerca de Nosotros</h2>
+          <p class="text-muted">Somos una empresa comprometida con la excelencia, ofreciendo soluciones innovadoras para nuestros clientes.</p>
+        </div>
+      </div>
+  
+      <div class="row row-cols-1 row-cols-md-2 align-items-center">
+        <!-- Imagen -->
+        <div class="col">
+          <img src="https://coworkingfy.com/wp-content/uploads/2019/11/trabajo-en-equipo-grupo-figurativo-de-equipo-de-trabajo-1024x612.jpg" class="img-fluid rounded shadow" alt="Acerca de Nosotros">
+        </div>
+  
+        <!-- Misión, Visión y Valores -->
+        <div class="col ms-auto">
+          <div class="row g-3 text-start">
+            <!-- Misión -->
+            <div class="col-12">
+              <div class="card border-0 shadow-sm p-3">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-flag fs-2 text-primary me-3"></i>
+                  <div>
+                    <h5 class="fw-bold">Misión</h5>
+                    <p >Brindar asesoría contable y fiscal especializada, siempre apegada a las leyes mexicanas y en constante actualización, para garantizar el cumplimiento normativo y la optimización financiera de nuestros clientes. A través de un servicio personalizado, ético y confiable, ayudamos a empresas, emprendedores y personas físicas a tomar decisiones estratégicas que fortalezcan su estabilidad y crecimiento.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Visión -->
+            <div class="col-12">
+              <div class="card border-0 shadow-sm p-3">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-eye fs-2 text-success me-3"></i>
+                  <div>
+                    <h5 class="fw-bold">Visión</h5>
+                    <p >Ser el despacho de asesoría contable contable, administrativa y fiscal de referencia en México, reconocido por nuestra excelencia, ética y compromiso con la actualización constante. Aspiramos a ser aliados estratégicos de nuestros clientes, proporcionando herramientas y conocimientos que les permitan enfrentar los retos fiscales y financieros con seguridad y confianza.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <!-- Valores -->
+            <div class="col-12">
+              <div class="card border-0 shadow-sm p-3">
+                <div class="d-flex align-items-center">
+                  <i class="bi bi-gem fs-2 text-warning me-3"></i>
+                  <div>
+                    <h5 class="fw-bold">Valores</h5>
+                    <p>Actuamos con total apego a las leyes mexicanas, con transparencia y ética profesional, asegurando prácticas responsables alineadas con la normatividad vigente. Nos mantenemos actualizados en materia fiscal y contable para brindar asesoría precisa. Priorizamos la estabilidad financiera de nuestros clientes, construyendo relaciones de confianza y ofreciendo soluciones estratégicas y eficientes con excelencia y precisión.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  
+      
+  
+  <section id="services" >
+    <div class="container">
+      <div class="row gy-4 align-items-center">
+        <!-- Imagen principal -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <img src="https://www.jasminsoftware.es/wp-content/uploads/2020/01/servicios-de-contabilidad.jpg" alt="Servicios" class="img-fluid rounded">
+        </div>
+        <!-- Descripción general y lista de servicios -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <br>
+          <h3>Conozca nuestro catálogo de servicios.</h3>
+          <p>
+            Descubra las soluciones que tenemos para usted.
+          </p>
+          <!-- Grid de servicios -->
+          <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+            <!-- Servicio 1 -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="300">
+                <div class="card-body d-flex">
+                  <i class="bi bi-easel display-6 flex-shrink-0 me-3"></i>
+                  <div>
+                    <h5 class="card-title text-primary">Consultoria Fiscal</h5>
+                    <p class="card-text">Análisis y planificación para optimizar impuestos, revisión del cumplimiento de obligaciones fiscales, estrategias para deducciones y beneficios fiscales, atención de requerimientos del SAT y asesoría sobre regímenes fiscales.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Servicio 2 -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="400">
+                <div class="card-body d-flex">
+                  <i class="bi bi-patch-check display-6 flex-shrink-0 me-3"></i>
+                  <div>
+                    <h5 class="card-title text-primary">Consultoria Contable</h5>
+                    <p class="card-text">Incluye asesoría en el manejo y organización de la contabilidad, revisión de estados financieros, cumplimiento de normativas contables, optimización de procesos contables y apoyo en la toma de decisiones financieras.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Servicio 3 -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="500">
+                <div class="card-body d-flex">
+                  <i class="bi bi-brightness-high display-6 flex-shrink-0 me-3"></i>
+                  <div>
+                    <h5 class="card-title text-primary">Asesoria Administrativa</h5>
+                    <p class="card-text"> Incluye la optimización de procesos internos, gestión eficiente de recursos, mejora en la toma de decisiones, implementación de estrategias organizacionales y apoyo en la planificación y control administrativo.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Servicio 4 -->
+            <div class="col">
+              <div class="card h-100 border-0 shadow-sm" data-aos="fade-up" data-aos-delay="600">
+                <div class="card-body d-flex">
+                  <i class="bi bi-brightness-high display-6 flex-shrink-0 me-3"></i>
+                  <div>
+                    <h5 class="card-title text-primary">Servicio de Defensa Fiscal</h5>
+                    <p class="card-text">Incluye la representación y asesoría en procedimientos fiscales, atención de auditorías y revisiones del SAT, interposición de recursos de defensa, gestión de amparos y estrategias legales para la protección de los derechos del contribuyente.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- End row de servicios -->
+        </div>
+      </div><!-- End row principal -->
+    </div><!-- End container -->
+  </section>
+  
+  <section id="faq" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center fw-bold mb-4">Preguntas Más Comunes</h2>
+        <div class="accordion" id="faqAccordion">
+            <!-- Pregunta 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ¿Qué es la contabilidad?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        La contabilidad es el proceso de registrar, clasificar y resumir las transacciones financieras de una empresa. Su objetivo es proporcionar información útil para la toma de decisiones.
+                    </div>
+                </div>
+            </div>
+            <!-- Pregunta 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ¿Por qué es importante llevar una buena contabilidad?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Llevar una buena contabilidad es crucial para el éxito de un negocio, ya que permite conocer la situación financiera, cumplir con obligaciones fiscales y tomar decisiones informadas.
+                    </div>
+                </div>
+            </div>
+            <!-- Pregunta 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ¿Qué documentos son necesarios para la contabilidad?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Los documentos necesarios incluyen facturas, recibos, estados de cuenta bancarios, nóminas y cualquier otro documento que respalde las transacciones financieras de la empresa.
+                    </div>
+                </div>
+            </div>
+            <!-- Pregunta 4 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        ¿Con qué frecuencia debo llevar la contabilidad?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        La frecuencia depende del tamaño y la complejidad del negocio, pero generalmente se recomienda llevar la contabilidad de forma mensual para tener un control adecuado.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact" class="container mt-5">
+  <h2 class="text-center mb-4">Contáctanos</h2>
+  <div class="row justify-content-center">
+      <div class="col-md-8">
+          <form>
+              <div class="mb-3">
+                  <label for="name" class="form-label">Nombre completo o Razón social</label>
+                  <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre o razón social" required>
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="email" placeholder="Ingrese su correo electrónico" required>
+              </div>
+              <div class="mb-3">
+                  <label for="phone" class="form-label">Teléfono</label>
+                  <input type="tel" class="form-control" id="phone" placeholder="Ingrese su número de teléfono" required>
+              </div>
+              <div class="mb-3">
+                  <label class="form-label">Tipo de Cliente</label>
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="clientType" id="fisica" value="fisica" required>
+                      <label class="form-check-label" for="fisica">
+                          Persona Física
+                      </label>
+                  </div>
+                  <div class="form-check">
+                      <input class="form-check-input" type="radio" name="clientType" id="moral" value="moral" required>
+                      <label class="form-check-label" for="moral">
+                          Persona Moral
+                      </label>
+                  </div>
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label">Mensaje</label>
+                  <textarea class="form-control" id="message" rows="4" placeholder="Déjanos tu mensaje o consulta" required></textarea>
+              </div>
+              <div class="text-center">
+                  <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+              </div>
+          </form>
+      </div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white text-center py-3">
+  <div class="container">
+      <p class="mb-0">Algunos derechos reservados 2025 Servicio Profesional de Asesores</p>
+  </div>
+</footer>
+
+</body>
+</html>
